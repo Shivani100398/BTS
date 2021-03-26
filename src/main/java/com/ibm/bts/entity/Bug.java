@@ -20,7 +20,7 @@ public class Bug {
 	}
 
 	public void setStatus(String status) {
-		if(status.equals("Fixed")||status.equals("Open")||status.equals("NeedMoreInfo"))
+		if(status.equals("Fixed")||status.equals("Open")||status.equals("NeedMoreInfo")||status.equals("Retest"))
 		{this.status = status;}
 		else
 		{throw new IllegalArgumentException();}
